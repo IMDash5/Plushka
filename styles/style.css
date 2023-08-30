@@ -4,7 +4,6 @@ html{
 }
 h1{
     font-family: "Caveat",cursive;
-    font-size: 60px;
     color:royalblue;
     
 }
@@ -23,7 +22,57 @@ body{
     max-width: 1920px;
 }
 
-@media (max-width:1920px){
+@media (min-width:800px) and (min-height:1600px){
+    .block{
+        margin: 0;
+        flex-wrap: wrap;
+        .img1{
+            width: 1200px;
+        min-height: 600px;
+        margin-right: 0;
+        margin-bottom: 10px;
+        }
+        .img2{
+            width: 1200px;
+        min-height: 600px;
+        margin-right: 0;
+        margin-bottom: 10px;
+        }
+        .img3{
+            width: 1200px;
+        min-height: 600px;
+        margin-right: 0;
+        margin-bottom: 10px;
+        }
+        .img1 h2 {
+            position:relative;
+            text-align: center;
+            top: 20%;  
+            text-shadow: 1px 1px 1px #000;
+            font-size: 120px;
+        }
+        .img2 h2 {
+            position:relative;
+            text-align: center;
+            top: 5%;  
+            text-shadow: 1px 1px 1px #000;
+            font-size: 100px;
+        }
+        .img3 h2 {
+            position:relative;
+            text-align: center;
+            top: 25%;
+            text-shadow: 1px 1px 1px #000;
+            font-size: 120px;
+        }
+    }
+    .head{
+        margin: 0 ;
+        font-size: 50px;
+    }
+}
+
+@media (max-width:3000px){
     .block{
         max-width: 1620px;
         margin-left: 15%;
@@ -93,12 +142,7 @@ body{
     .block{
         max-width: 750px;
         margin: 0;
-        .img3{
-            width: 500px;
-        min-height: 700px;
-        margin-right: 0;
 
-        }
     }
     .head{
         margin: 0 ;
@@ -108,7 +152,7 @@ body{
 
 @media (max-width:767px){
     .block{
-        max-width: none;
+        max-width: 767px;
         margin: 0;
         flex-wrap: wrap;
         .img1{
