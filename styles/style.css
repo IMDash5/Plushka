@@ -22,6 +22,37 @@ body{
     max-width: 1920px;
 }
 
+.img1{
+    background-image: url(../images/1.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: calc(250px + (1920 - 600) * ((100vw - 500px) / (1920 - 500)));
+    min-height: 700px;
+    display: block;
+    margin-right: 20px;
+}
+
+
+.img2{
+    background-image: url(../images/2.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: calc(250px + (1920 - 600) * ((100vw - 500px) / (1920 - 500)));
+    min-height: 700px;
+    display: block;
+    margin-right: 20px;
+}
+
+.img3{
+    background-image: url(../images/3.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: calc(250px + (1920 - 600) * ((100vw - 500px) / (1920 - 500)));
+    min-height: 700px;
+    display: block;
+    margin-right: 20px;
+}
+
 @media (max-width:2000px){
     .block{
         max-width: 1920px;
@@ -190,36 +221,7 @@ body{
 
 }
 
-.img1{
-    background-image: url(../images/1.jpg);
-    background-position: center center;
-    background-size: cover;
-    width: calc(250px + (1920 - 600) * ((100vw - 500px) / (1920 - 500)));
-    min-height: 700px;
-    display: block;
-    margin-right: 20px;
-}
 
-
-.img2{
-    background-image: url(../images/2.jpg);
-    background-position: center center;
-    background-size: cover;
-    width: calc(250px + (1920 - 600) * ((100vw - 500px) / (1920 - 500)));
-    min-height: 700px;
-    display: block;
-    margin-right: 20px;
-}
-
-.img3{
-    background-image: url(../images/3.jpg);
-    background-position: center center;
-    background-size: cover;
-    width: calc(250px + (1920 - 600) * ((100vw - 500px) / (1920 - 500)));
-    min-height: 700px;
-    display: block;
-    margin-right: 20px;
-}
 
 
 
