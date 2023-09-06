@@ -72,19 +72,19 @@ body{
         max-width: none;
         flex-wrap: wrap;
         .img1{
-        width: 1200px;
+        width: 100%;
         min-height: 600px;
         margin-right: 0;
         margin-bottom: 10px;
         }
         .img2{
-            width: 1200px;
+            width: 100%;
         min-height: 600px;
         margin-right: 0;
         margin-bottom: 10px;
         }
         .img3{
-            width: 1200px;
+            width: 100%;
         min-height: 600px;
         margin-right: 0;
         margin-bottom: 10px;
