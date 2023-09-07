@@ -23,7 +23,7 @@ body{
 }
 
 
-
+/*
 @media (max-width:2000px){
     .block{
         max-width: 1920px;
@@ -95,7 +95,7 @@ body{
     }
 
 }
-
+*/
 @media(max-width:1300px){
 
     .block{
@@ -104,18 +104,27 @@ body{
         max-width: none;
         flex-wrap: wrap;
         .img1{
+            background-image: url(../images/1.jpg);
+        background-position: center center;
+        background-size: cover;
         width: 100%;
         min-height: 600px;
         margin-right: 0;
         margin-bottom: 10px;
         }
         .img2{
+            background-image: url(../images/2.jpg);
+            background-position: center center;
+        background-size: cover;
             width: 100%;
         min-height: 600px;
         margin-right: 0;
         margin-bottom: 10px;
         }
         .img3{
+            background-image: url(../images/3.jpg);
+            background-position: center center;
+            background-size: cover;
             width: 100%;
         min-height: 600px;
         margin-right: 0;
@@ -156,7 +165,7 @@ body{
         }
     }
 }
-
+/*
 @media (max-width:997px){
     .block{
         max-width: 750px;
