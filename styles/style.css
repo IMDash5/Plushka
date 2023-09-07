@@ -1,10 +1,13 @@
-html{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
+
 h1{
     font-family: "Caveat",cursive;
     color:royalblue;
+    margin-top: -50px;
+}
+
+.undertitle{
+    color: grey;
+    margin-top: -30px;
 }
 
 h2{
@@ -16,6 +19,8 @@ h2{
 body{
     background: white;
     margin: 50px auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
 }
 
 .block{
