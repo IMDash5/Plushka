@@ -1,0 +1,66 @@
+@media only screen and (max-width : 500px) {
+    .heading{
+        .plush{
+            font-size: 50px;
+            margin-top: -50px;
+        }
+        .undertitle{
+            margin-top: -30px;
+            color: grey;
+            margin-bottom: 50px;
+        }
+    }
+    .block{
+        flex-wrap: wrap;
+    }
+    .img1{
+        background-image: url("../images/1.jpg");
+        width: 100%;
+        min-height: 250px;
+        background-position: center center;
+        background-size: cover;
+        display: block;
+
+    }
+    .img2{
+        background-image: url(../images/2.jpg);
+        width: 100%;
+        min-height: 250px;
+        background-position: center center;
+        background-size: cover;
+        display: block;
+        margin-top: 10px;
+    }
+    .img3{
+        background-image: url(../images/3.jpg);
+        width: 100%;
+        min-height: 250px;
+        background-position: center center;
+        background-size: cover;
+        display: block;
+        margin-top: 10px;
+
+    }
+    .img1 h2{
+        text-shadow: 2px 2px 2px black;
+        font-size: 50px;
+        position:relative;
+        text-align: center;
+        top:20%
+        
+    }
+    .img2 h2{
+        text-shadow: 2px 2px 2px black;
+        font-size: 50px;
+        position:relative;
+        text-align: center;
+
+    }
+    .img3 h2{
+        text-shadow: 2px 2px 2px black;
+        font-size: 50px;
+        position:relative;
+        text-align: center;
+        top:20%
+    }
+}
