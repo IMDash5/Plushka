@@ -1,12 +1,14 @@
 @media only screen and (max-width : 500px) {
     .heading{
+        height: 15%;
+        margin-bottom: 5%;
+        text-align: center;
         .plush{
             font-size: 50px;
             margin-top: -50px;
         }
         .undertitle{
-            margin-top: -30px;
-            color: grey;
+            margin-top: -40px;
             margin-bottom: 50px;
         }
     }
@@ -14,27 +16,33 @@
         flex-wrap: wrap;
     }
     .img1{
+        border-radius: 200px;
+        margin-left: 5%;
         background-image: url("../images/1.jpg");
-        width: 100%;
-        min-height: 250px;
+        width: 90%;
+        min-height: 400px;
         background-position: center center;
         background-size: cover;
         display: block;
 
     }
     .img2{
+        border-radius: 200px;
+        margin-left: 5%;
         background-image: url(../images/2.jpg);
-        width: 100%;
-        min-height: 250px;
+        width: 90%;
+        min-height: 400px;
         background-position: center center;
         background-size: cover;
         display: block;
         margin-top: 10px;
     }
     .img3{
+        border-radius: 200px;
+        margin-left: 5%;
         background-image: url(../images/3.jpg);
-        width: 100%;
-        min-height: 250px;
+        width: 90%;
+        min-height: 400px;
         background-position: center center;
         background-size: cover;
         display: block;
@@ -46,7 +54,7 @@
         font-size: 50px;
         position:relative;
         text-align: center;
-        top:20%
+        top:28%
         
     }
     .img2 h2{
@@ -54,32 +62,112 @@
         font-size: 50px;
         position:relative;
         text-align: center;
-
+        top:15%;
     }
     .img3 h2{
         text-shadow: 2px 2px 2px black;
         font-size: 50px;
         position:relative;
         text-align: center;
-        top:20%
+        top:28%
     }
 }
-
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+@media only screen and (min-device-width: 501px) and (max-device-width:767px){
     .heading{
-        margin-left: 10%;
+        height: 15%;
+        text-align: center;
+        margin-bottom: 5%;
         .plush{
             font-size: 50px;
             margin-top: -50px;
         }
         .undertitle{
-            margin-top: -30px;
+            margin-top: -45px;
+            color: grey;
+            margin-bottom: 50px;
+        }
+    }
+    .container{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .block{
+        flex-wrap: wrap;
+    }
+    .img1{
+        background-image: url("../images/1.jpg");
+        width: 100%;
+        min-height: 400px;
+        background-position: center center;
+        background-size: cover;
+        display: block;
+        border-radius: 400px;
+    }
+    .img2{
+        background-image: url(../images/2.jpg);
+        width: 100%;
+        min-height: 400px;
+        background-position: center center;
+        background-size: cover;
+        display: block;
+        margin-top: 10px;
+        border-radius: 400px;
+    }
+    .img3{
+        background-image: url(../images/3.jpg);
+        width: 100%;
+        min-height: 400px;
+        background-position: center center;
+        background-size: cover;
+        display: block;
+        margin-top: 10px;
+        border-radius: 400px;
+    }
+    .img1 h2{
+        text-shadow: 2px 2px 2px black;
+        font-size: 50px;
+        position:relative;
+        text-align: center;
+        top:28%
+        
+    }
+    .img2 h2{
+        text-shadow: 2px 2px 2px black;
+        font-size: 50px;
+        position:relative;
+        text-align: center;
+        top: 15%;
+    }
+    .img3 h2{
+        text-shadow: 2px 2px 2px black;
+        font-size: 50px;
+        position:relative;
+        text-align: center;
+        top:30%
+    }
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+    .heading{
+        height: 15%;
+        margin-bottom: 5%;
+        .plush{
+            margin-left: 10%;
+            font-size: 50px;
+            margin-top: -50px;
+        }
+        .undertitle{
+            margin-left: 10%;
+            margin-top: -40px;
             color: grey;
             margin-bottom: 50px;
         }
     }
     .block{
         flex-wrap: wrap;
+    }
+    .container{
         margin-left: 10%;
         margin-right: 10%;
     }
@@ -139,18 +227,21 @@
 
 @media only screen and (min-device-width : 1025px){
     .heading{
-        margin-left: 10%;
+        height: 15%;
+        margin-bottom: 5%;
         .plush{
+            margin-left: 10%;
             font-size: 50px;
             margin-top: -50px;
         }
         .undertitle{
-            margin-top: -30px;
+            margin-left: 10%;
+            margin-top: -35px;
             color: grey;
             margin-bottom: 50px;
         }
     }
-    .block{
+    .container{
         margin-left: 10%;
         margin-right: 10%;
     }

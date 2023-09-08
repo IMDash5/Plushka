@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet"> 
     <link href="styles/style.css" rel="stylesheet" type="text/css" >
     <link href="styles/media.css" rel="stylesheet" type="text/css" >
-
+    <link rel="stylesheet" href="styles/slider.css" type="text/css">
 
 </head>
 <body>
@@ -17,12 +17,60 @@
         <h1 class="plush">Плюшка дома</h1>
         <p class="undertitle">Сайт с примерами работ</p>
     </div>
-    <div class="block">
-        <a href="igrushki.html" class="img1" style="text-decoration: none;"><h2>Игрушки</h2></a>
-        <a href="bags.html" class="img2"style="text-decoration: none;"><h2>Сумки,<br /> кошельки<br /> и пеналы</h2></a>
-        <a href="brelki.html" class="img3"style="text-decoration: none;"><h2>Брелки</h2></a>
-    </div>
 
+    <div class="container">
+        <div class="block">
+            <a href="igrushki.html" class="img1" style="text-decoration: none;"><h2>Игрушки</h2></a>
+            <a href="bags.html" class="img2"style="text-decoration: none;"><h2>Сумки,<br /> кошельки<br /> и пеналы</h2></a>
+            <a href="brelki.html" class="img3"style="text-decoration: none;"><h2>Брелки</h2></a>
+        </div>
+
+        <div class="slider">
+            <div class="mySlides">
+                <img src="images/4.1.jpg" alt="" style="max-width: 100%; max-height: 500px;">
+            </div>
+            <div class="mySlides">
+                <img src="images/4.jpg" alt="" style="width: 80%; max-height: 500px;">
+            </div>
+            <div class="mySlides">
+                <img src="images/5.jpg" alt="" style="width: 50%; max-height: 500px;">
+            </div>
+            <div class="mySlides">
+                <img src="images/9.jpg" alt="" style="width: 50%; max-height: 500px;">
+            </div>
+            <div class="mySlides">
+                <img src="images/7.jpg" alt="" style="width: 50%; max-height: 500px;">
+            </div>
+            <div class="mySlides">
+                <img src="images/8.jpg" alt="" style="width: 50%; max-height: 500px;">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="row">
+                <div class="column">
+                  <img class="demo cursor" src="images/4.1.jpg" style="width:100%" onclick="currentSlide(1)" >
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="images/4.jpg" style="width:100%" onclick="currentSlide(2)" >
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="images/5.jpg" style="width:100%" onclick="currentSlide(3)" >
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="images/9.jpg" style="width:100%" onclick="currentSlide(4)" >
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="images/7.jpg" style="width:100%" onclick="currentSlide(5)" >
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="images/8.jpg" style="width:100%" onclick="currentSlide(6)" >
+                </div>
+              </div>
+        </div>
+    </div>
+<script src="scripts/slider.js"></script>
 </body>
 </html>
 
